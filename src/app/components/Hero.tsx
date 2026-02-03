@@ -9,7 +9,6 @@ export const GravityStarsBackgroundDemo = () => {
 export default function Hero() {
   return (
     <section className="absolute inset-0">
-      {/* FAYAZ text centered and positioned exactly as in IntroReveal */}
       <div
         style={{
           position: 'absolute',
@@ -47,7 +46,6 @@ export default function Hero() {
       <div className="infring">
         <p>© 2026 fayaz.engineering</p>
       </div>
-      {/* Ensure the background fills the entire section */}
       <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
         <GravityStarsBackground className="w-full h-full" style={{ color:'#000000', width: '100%', height: '100%' }} />
       </div>
